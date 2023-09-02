@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>HomePage</title>
+	<link rel="styleSheet" href="styleSheet.css">
+</head>
+
+<body>
+	
+	<div class="container">
+		<!--Title Space-->
+		<div class="title-box">
+				
+			<img class="logoImg" src="logo.png">
+			<h3>Fresh Market</h3>
+			
+			<div class="right-align">
+				<img class="cartImg" src="cart.png">
+			</div>
+			
+			<a href="register.html"><img class="profileImg" src="profile.png"></a>
+		</div>
+		<!--End-->
+				
+		<!--Adz Space-->
+		<div class="ad-box">
+			<div class="ad-1">
+				<img src="adgif.gif" class="adgif">
+			</div>
+			<div class="ad-2">
+				<img src="SNACKS.gif" class="adgif">
+				<img src="discount.gif" class="discount">
+			</div>
+		</div>
+				
+		<!--Products Space-->
+		<div class="product">
+			<div class="imgDiv">
+				<div class="product-1">
+					<div class="img-box">
+						<img class="productImg" src="keeri samba.jpg">
+					</div>
+					
+					<div class="product_name-box">
+						<p class="productName">Keeri Samba - 5kg</p></br>
+						<p class="productPrice">Rs. 1096.00</p>
+					</div>
+					
+					<div class="add_button-box">
+						<button id="index0"><span>Buy</span></button>
+					</div>
+				</div>
+				
+				<div class="product-2">
+					<div class="img-box">
+						<img class="productImg" src="flour.jpg">
+					</div>
+					
+					<div class="product_name-box">
+						<p class="productName">Flour - 1kg</br>
+						<p class="productPrice">Rs. 405.00</p>
+					</div>
+					
+					<div class="add_button-box">
+						<button id="index1"><span>Buy</span></button>
+					</div>
+				</div>
+				
+				<div class="product-3">
+					<div class="img-box">
+						<img class="productImg" src="dhal.jpg">
+					</div>
+					
+					<div class="product_name-box">
+						<p class="productName">Red Lentils - 1kg</br>
+						<p class="productPrice">Rs. 455.00</p>
+					</div>
+					
+					<div class="add_button-box">
+						<button id="index2"><span>Buy</span></button>
+					</div>
+				</div>
+			</div>
+			
+			<div class="imgDiv">
+				<div class="product-4">
+					<div class="img-box">
+						<img class="productImg" src="potato.jpg">
+					</div>
+					
+					<div class="product_name-box">
+						<p class="productName">Potato - 1kg</br>
+						<p class="productPrice">Rs. 240.00</p>
+					</div>
+					
+					<div class="add_button-box">
+						<button id="index3"><span>Buy</span></button>
+					</div>
+				</div>
+				
+				<div class="product-5">
+					<div class="img-box">
+						<img class="productImg" src="carrot.jpg">
+					</div>
+					
+					<div class="product_name-box">
+						<p class="productName">Carrot - 1kg</br>
+						<p class="productPrice">Rs. 496.00</p>
+					</div>
+					
+					<div class="add_button-box">
+						<button id="index4"><span>Buy</span></button>
+					</div>
+				</div>
+				
+				<div class="product-6">
+					<div class="img-box">
+						<img class="productImg" src="pumpkin.jpg">
+					</div>
+					
+					<div class="product_name-box">
+						<p class="productName">Pumpkin - 1kg</br>
+						<p class="productPrice">Rs. 85.00</p>
+					</div>
+					
+					<div class="add_button-box">
+						<button id="index5"><span>Buy</span></button>
+					</div>
+				</div>
+			</div>
+			
+			<div class="imgDiv-bottom">
+				<div class="product-7">
+					<div class="img-box">
+						<img class="productImg" src="anchor.jpg">
+					</div>
+					
+					<div class="product_name-box">
+						<p class="productName">Anchor Full Cream Milk Powder - 1kg</p></br>
+						<p class="productPrice">Rs. 2485.00</p>
+					</div>
+					
+					<div class="add_button-box">
+						<button id="index6"><span>Buy</span></button>
+					</div>
+				</div>
+				
+				<div class="product-8">
+					<div class="img-box">
+						<img class="productImg" src="creamCracker.jpeg">
+					</div>
+					
+					<div class="product_name-box">
+						<p class="productName">Munchee Super Cream Cracker - 400g</p></br>
+						<p class="productPrice">Rs. 585.00</p>
+					</div>
+					
+					<div class="add_button-box">
+						<button id="index7"><span>Buy</span></button>
+					</div>
+				</div>
+				
+				<div class="product-9">
+					<div class="img-box">
+						<img class="productImg" src="noodles.jpeg">
+					</div>
+					
+					<div class="product_name-box">
+						<p class="productName">Maggi Noodles - 73g</p><br></br>
+						<p class="productPrice">Rs. 130.00</p>
+					</div>
+					
+					<div class="add_button-box">
+						<button id="index8"><span>Buy</span></button>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!--Bottom Space-->
+		<div class="bottom-box">
+			<div class="useful_links">
+				<h4>Useful Links</h4>
+				<table border=0>
+					<tr>
+						<td>
+							<div class="useful_links-left">
+								<ul>
+									<li>About</li>
+									<li>Contact Us</li>
+									<li>FAQ</li>
+								</ul>
+							</div>
+						</td>
+						<td>
+							<div class="useful_links-right">
+								<ul>
+									<li>Terms & Conditions</li>
+									<li>Privacy Policy</li>
+									<li>Return Policy</li>
+								</ul>
+							</div>
+						</td>
+					</tr>
+				</table>
+			</div>
+			
+			<div class="payment_methods">
+				<h4>Payment Methods</h4>
+				<img class="payment_methods-Img" src="visa.png">
+			</div>
+				
+			<div class="download_app">
+				<h4>Download App</h4>
+				
+				<div class="download_app-row">
+					<img class="download_app-Img" src="googleplay.jpg">
+					<img class="download_app-Img" src="appstore.jpg">
+				</div>
+			</div>
+			
+			<div class="follow_us">
+				<h4>Follow Us</h4>
+				
+				<div class="follow_us-row">
+					<a href="https://www.facebook.com/login/"><img class="follow_us-Img" src="facebook.png"></a>
+					<a href="https://www.instagram.com/"><img class="follow_us-Img" src="instagram.png"></a>
+					<a href="https://twitter.com/?lang=en"><img class="follow_us-Img" src="twitter.png"></a>
+					<a href="https://www.youtube.com/"><img class="follow_us-Img" src="youtube.png"></a>
+				</div>
+			</div>	
+		</div>
+	</div>
+	
+	<div class="sub-container">
+		<div class="popup-box0">
+			<div class="close">
+				<img src="closebtn.png" class="closebtn0">
+			</div>
+	
+				<div class="image-box">
+					<img src="keeri samba.jpg" class="popup-box_productImg">
+					<div class="details-box">
+						<p class="productName">Keeri Samba - 5kg</P></br>
+						<p class="productPrice">Rs. 1096.00</p>
+					</div>	
+				</div>
+				
+				<div class="productAdd-box">
+					<form name="formCalc1">
+						<div class="qty_amount-box">
+							<p class="amount-text">Amount<p style="font-size:20px;font-weight:bold;">&nbsp;Rs.</p></p>
+							<input type="text" name="textAmount1" class="amount-display">
+						</div>
+					</form>
+						<div class="qty-box1">
+							
+							<div class="qty_display-box">
+								<p class="qty-text">Qty</p>
+								<p id="counting1" class="qty-display"></p>
+							</div>
+							
+							<div class="qty_button-box">
+								<button onclick="increment1()" class="plus-btn"><span>+</span></button>
+								<button onclick="decrement1()" class="minus-btn"><span>-</span></button>
+							</div>
+						</div>
+						<div class="qty-box2">
+							<button class="add_btn" onClick="sumValue1()"><span class="btn-name">Add</span></button>
+						</div>
+				</div>
+		</div>
+		
+		<div class="popup-box1">
+			<div class="close">
+				<img src="closebtn.png" class="closebtn1">
+			</div>
+				<div class="image-box">
+					<img src="flour.jpg" class="popup-box_productImg">
+					<div class="details-box">
+						<p class="productName">Flour - 1kg</br>
+						<p class="productPrice">Rs. 405.00</p>
+					</div>	
+				</div>
+				
+				<div class="productAdd-box">
+					<form name="formCalc2">
+						<div class="qty_amount-box">
+								<p class="amount-text">Amount</p>
+								<input type="text" name="textAmount2" class="amount-display">
+						</div>
+					</form>	
+						<div class="qty-box1">
+							<div class="qty_display-box">
+								<p class="qty-text">Qty</p>
+								<p id="counting2" class="qty-display"></p>
+							</div>
+							
+							<div class="qty_button-box">
+								<button onclick="increment2()" class="plus-btn"><span>+</span></button>
+								<button onclick="decrement2()" class="minus-btn"><span>-</span></button>
+							</div>
+						</div>
+						<div class="qty-box2">
+							<button class="add_btn" onClick="sumValue2()"><span class="btn-name">Add</span></button>
+					</div>
+				</div>	
+		</div>
+		
+		
+		<div class="popup-box2">
+			<div class="close">
+				<img src="closebtn.png" class="closebtn2">
+			</div>
+
+				<div class="image-box">
+					<img src="dhal.jpg" class="popup-box_productImg">
+					<div class="details-box">
+						<p class="productName">Red Lentils - 1kg</br>
+						<p class="productPrice">Rs. 455.00</p>
+					</div>	
+				</div>
+				
+				<div class="productAdd-box">
+					<form name="formCalc3">
+						<div class="qty_amount-box">
+								<p class="amount-text">Amount<p style="font-size:20px;font-weight:bold;">&nbsp;Rs.</p></p>
+								<input type="text" name="textAmount3" class="amount-display">
+						</div>
+					</form>	
+						<div class="qty-box1">
+							<div class="qty_display-box">
+								<p class="qty-text">Qty</p>
+								<p id="counting3" class="qty-display"></p>
+							</div>
+							
+							<div class="qty_button-box">
+								<button onclick="increment3()" class="plus-btn"><span>+</span></button>
+								<button onclick="decrement3()" class="minus-btn"><span>-</span></button>
+							</div>
+						</div>
+						<div class="qty-box2">
+							<button class="add_btn" onClick="sumValue3()"><span class="btn-name">Add</span></button>
+					</div>
+				</div>
+		</div>
+		
+		<div class="popup-box3">
+			<div class="close">
+				<img src="closebtn.png" class="closebtn3">
+			</div>
+	
+			<div class="image-box">
+				<img src="potato.jpg" class="popup-box_productImg">
+			<div class="details-box">
+				<p class="productName">Potato - 1kg</br>
+					<p class="productPrice">Rs. 240.00</p>
+			</div>	
+			</div>
+				
+				<div class="productAdd-box">
+					<form name="formCalc4">
+						<div class="qty_amount-box">
+								<p class="amount-text">Amount<p style="font-size:20px;font-weight:bold;">&nbsp;Rs.</p></p>
+								<input type="text" name="textAmount4" class="amount-display">
+						</div>
+					</form>	
+						<div class="qty-box1">
+							<div class="qty_display-box">
+								<p class="qty-text">Qty</p>
+								<p id="counting4" class="qty-display"></p>
+							</div>
+							
+							<div class="qty_button-box">
+								<button onclick="increment4()" class="plus-btn"><span>+</span></button>
+								<button onclick="decrement4()" class="minus-btn"><span>-</span></button>
+							</div>
+						</div>
+						<div class="qty-box2">
+							<button class="add_btn" onClick="sumValue4()"><span class="btn-name">Add</span></button>
+					</div>
+				</div>
+		</div>
+		
+		<div class="popup-box4">
+			<div class="close">
+				<img src="closebtn.png" class="closebtn4">
+			</div>
+			
+			<div class="image-box">
+				<img src="carrot.jpg" class="popup-box_productImg">
+			<div class="details-box">
+				<p class="productName">Carrot - 1kg</br>
+				<p class="productPrice">Rs. 496.00</p>
+			</div>	
+			</div>
+				
+				<div class="productAdd-box">
+					<form name="formCalc5">
+						<div class="qty_amount-box">
+								<p class="amount-text">Amount<p style="font-size:20px;font-weight:bold;">&nbsp;Rs.</p></p>
+								<input type="text" name="textAmount5" class="amount-display">
+						</div>
+					</form>	
+						<div class="qty-box1">
+							<div class="qty_display-box">
+								<p class="qty-text">Qty</p>
+								<p id="counting5" class="qty-display"></p>
+							</div>
+							
+							<div class="qty_button-box">
+								<button onclick="increment5()" class="plus-btn"><span>+</span></button>
+								<button onclick="decrement5()" class="minus-btn"><span>-</span></button>
+							</div>
+						</div>
+						<div class="qty-box2">
+							<button class="add_btn" onClick="sumValue5()"><span class="btn-name">Add</span></button>
+					</div>
+				</div>
+		</div>
+		
+		<div class="popup-box5">
+			<div class="close">
+				<img src="closebtn.png" class="closebtn5">
+			</div>
+
+			<div class="image-box">
+				<img src="pumpkin.jpg" class="popup-box_productImg">
+			<div class="details-box">
+				<p class="productName">Pumpkin - 1kg</br>
+				<p class="productPrice">Rs. 85.00</p>
+			</div>	
+			</div>
+				
+				<div class="productAdd-box">
+					<form name="formCalc6">
+						<div class="qty_amount-box">
+								<p class="amount-text">Amount<p style="font-size:20px;font-weight:bold;">&nbsp;Rs.</p></p>
+								<input type="text" name="textAmount6" class="amount-display">
+						</div>
+					</form>	
+						<div class="qty-box1">
+							<div class="qty_display-box">
+								<p class="qty-text">Qty</p>
+								<p id="counting6" class="qty-display"></p>
+							</div>
+							
+							<div class="qty_button-box">
+								<button onclick="increment6()" class="plus-btn"><span>+</span></button>
+								<button onclick="decrement6()" class="minus-btn"><span>-</span></button>
+							</div>
+						</div>
+						<div class="qty-box2">
+							<button class="add_btn" onClick="sumValue6()"><span class="btn-name">Add</span></button>
+					</div>
+				</div>
+		</div>
+		
+		<div class="popup-box6">
+			<div class="close">
+				<img src="closebtn.png" class="closebtn6">
+			</div>
+		
+			<div class="image-box">
+				<img src="anchor.jpg" class="popup-box_productImg">
+			<div class="details-box">
+				<p class="productName">Anchor Full Cream Milk Powder - 1kg</p></br>
+				<p class="productPrice">Rs. 2485.00</p>
+			</div>	
+			</div>
+				
+				<div class="productAdd-box">
+					<form name="formCalc7">
+						<div class="qty_amount-box">
+								<p class="amount-text">Amount<p style="font-size:20px;font-weight:bold;">&nbsp;Rs.</p></p>
+								<input type="text" name="textAmount7" class="amount-display">
+						</div>
+					</form>	
+						<div class="qty-box1">
+							<div class="qty_display-box">
+								<p class="qty-text">Qty</p>
+								<p id="counting7" class="qty-display"></p>
+							</div>
+							
+							<div class="qty_button-box">
+								<button onclick="increment7()" class="plus-btn"><span>+</span></button>
+								<button onclick="decrement7()" class="minus-btn"><span>-</span></button>
+							</div>
+						</div>
+						<div class="qty-box2">
+							<button class="add_btn" onClick="sumValue7()"><span class="btn-name">Add</span></button>
+					</div>
+				</div>
+		</div>
+		
+		<div class="popup-box7">
+			<div class="close">
+				<img src="closebtn.png" class="closebtn7">
+			</div>
+		
+			<div class="image-box">
+				<img src="creamCracker.jpeg" class="popup-box_productImg">
+			<div class="details-box">
+				<p class="productName">Munchee Super Cream Cracker - 400g</p></br>
+				<p class="productPrice">Rs. 585.00</p>
+			</div>	
+			</div>
+				
+				<div class="productAdd-box">
+					<form name="formCalc8">
+						<div class="qty_amount-box">
+								<p class="amount-text">Amount<p style="font-size:20px;font-weight:bold;">&nbsp;Rs.</p></p>
+								<input type="text" name="textAmount8" class="amount-display">
+						</div>
+				</form>	
+						<div class="qty-box1">
+							<div class="qty_display-box">
+								<p class="qty-text">Qty</p>
+								<p id="counting8" class="qty-display"></p>
+							</div>
+							
+							<div class="qty_button-box">
+								<button onclick="increment8()" class="plus-btn"><span>+</span></button>
+								<button onclick="decrement8()" class="minus-btn"><span>-</span></button>
+							</div>
+						</div>.
+						<div class="qty-box2">
+							<button class="add_btn" onClick="sumValue8()"><span class="btn-name">Add</span></button>
+					</div>
+				</div>
+		</div>
+		
+		<div class="popup-box8">
+			<div class="close">
+				<img src="closebtn.png" class="closebtn8">
+			</div>
+			
+			<div class="image-box">
+				<img src="noodles.jpeg" class="popup-box_productImg">
+			<div class="details-box">
+				<p class="productName">Maggi Noodles - 73g</p><br></br>
+				<p class="productPrice">Rs. 130.00</p>
+			</div>	
+			</div>
+				
+				<div class="productAdd-box">
+					<form name="formCalc9">
+						<div class="qty_amount-box">
+								<p class="amount-text">Amount<p style="font-size:20px;font-weight:bold;">&nbsp;Rs.</p></p>
+								<input type="text" name="textAmount9" class="amount-display">
+						</div>
+					</form>	
+						<div class="qty-box1">
+							<div class="qty_display-box">
+								<p class="qty-text">Qty</p>
+								<p id="counting9" class="qty-display"></p>
+							</div>
+							
+							<div class="qty_button-box">
+								<button onclick="increment9()" class="plus-btn"><span>+</span></button>
+								<button onclick="decrement9()" class="minus-btn"><span>-</span></button>
+							</div>
+						</div>
+						<div class="qty-box2">
+							<button class="add_btn" onClick="sumValue9()"><span class="btn-name">Add</span></button>
+					</div>
+				</div>
+		</div>
+	</div>
+	<script src="jsFile.js">
+	</script>
+</body>
+
+</html>
